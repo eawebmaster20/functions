@@ -6,6 +6,10 @@ function add(num1, num2){
     return num1+num2
 }
 
+function reverse(string){
+    return string.split('').reverse().join('');
+}
+
 module.exports = {
-    greetUser, add
+    greetUser, add, reverse
 }
